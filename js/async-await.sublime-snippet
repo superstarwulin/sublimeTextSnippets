@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+    // functionName returns a promise, so you can use it in other async functions.
+    async function() {
+      await ${1:functionName}();
+      console.log("Yey, story successfully loaded!");
+    };
+
+]]></content>
+    <tabTrigger>async</tabTrigger>
+    <scope>source.js</scope>
+    <description>es7 async await</description>
+</snippet>

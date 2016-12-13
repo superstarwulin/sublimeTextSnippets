@@ -1,0 +1,16 @@
+<snippet>
+    <content>
+    <![CDATA[
+    try {
+       throw "myException"; // generates an exception
+    }
+    catch (e) {
+       // statements to handle any exceptions
+       logMyErrors(e); // pass exception object to error handler
+    }
+    ]]>
+    </content>
+    <tabTrigger>tryc</tabTrigger>
+    <scope>source.js</scope>
+    <description>try catch</description>
+</snippet>
