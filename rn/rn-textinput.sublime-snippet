@@ -1,13 +1,15 @@
 <snippet>
     <content><![CDATA[
-<![CDATA[
-<TextInput  style={styles.{1:styles} onEndEditing  = {${2}} onChange={${3}}
- underlineColorAndroid = 'transparent'/>  //android需要设置下划线为透明才能去掉下划线 
- textAlignVertical = "top"  //设置垂直位置
-]]>
-
+// underlineColorAndroid android需要设置下划线为透明才能去掉下划线 
+// textAlignVertical = "top"  //设置垂直位置
+<TextInput  style={styles.{1:styles} 
+ onEndEditing  = {this.${1:functionName}.bind(this,{${2:arguments}})}
+ onChange={this.${1:functionName}.bind(this,{${2:arguments}})}
+ underlineColorAndroid = 'transparent'/>  
+ textAlignVertical = "top" 
+</TextInput>
 ]]></content>
-    <tabTrigger>rntextinput</tabTrigger>
+    <tabTrigger>rnTextInput</tabTrigger>
     <scope>source.js</scope>
     <description>react native textinput</description>
 </snippet>
