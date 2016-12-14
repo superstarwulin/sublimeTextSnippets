@@ -1,0 +1,32 @@
+<snippet>
+    <content>
+    <![CDATA[
+    <View style={[{flexDirection: 'row'}]}>
+        <View style={[{ flex: 1 , height: 50 , backgroundColor: '#aaaaaa'}]}>
+            <Text style={[{}]}>
+              cell1
+            </Text>
+        </View>
+        <View style={[{ flex: 1 , height: 50 , backgroundColor: '#aaaaaa'}]}>
+            <Text style={[{}]}>
+              cell2
+            </Text>
+        </View>
+        <View style={[{ flex: 1 , height: 50 , backgroundColor: '#aaaaaa'}]}>
+            <Text style={[{}]}>
+              cell3
+            </Text>
+        </View>
+        <View style={[{ width: 80, height: 50 , backgroundColor: '#fefefe'}]}>
+            <Text style={styles.welcome}>
+              fixed
+            </Text>
+        </View>
+    </View>
+    ]]>
+</content>
+    <tabTrigger>rnFlexRow</tabTrigger>
+    <scope>source.js</scope>
+    <description>react native flex row</description>
+</snippet>
+

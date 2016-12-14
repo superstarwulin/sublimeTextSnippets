@@ -1,0 +1,25 @@
+<snippet>
+    <content>
+    <![CDATA[
+    <View style={{flexDirection: 'row', height: 200, backgroundColor:"#fefefe", padding: 20}}>
+        <View style={{flex: 1, flexDirection:'column', padding: 15, backgroundColor:"#eeeeee"}}>  
+            <View style={{flex: 1, backgroundColor:"#bbaaaa"}}>  
+            </View>
+            <View style={{flex: 1, backgroundColor:"#aabbaa"}}>
+            </View>
+        </View>
+        <View style={{flex: 1, flexDirection:'column', padding: 15, backgroundColor:"#aaaabb"}}>  
+            <View style={{flex: 1, backgroundColor:"#aaccaa"}}>  
+            </View>
+            <View style={{flex: 1, backgroundColor:"#bbccee"}}>
+            </View>
+        </View>
+    </View>
+
+    ]]>
+</content>
+    <tabTrigger>rnFlexColumn</tabTrigger>
+    <scope>source.js</scope>
+    <description>react native flex column</description>
+</snippet>
+
